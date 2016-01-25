@@ -18,5 +18,6 @@ for (x,y,w,h) in faces:
 
 print count
 cv2.imshow('img',img)
+cv2.imwrite( "faces_detected.jpg", img );
 cv2.waitKey(0)
 cv2.destroyAllWindows()
